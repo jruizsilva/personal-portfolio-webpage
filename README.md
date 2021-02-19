@@ -2,7 +2,7 @@
 
 ## Responsive Web Design Project #5
 
-Este es el quinto projecto propuesto por freeCodeCamp es su plan de estudios.
+Este es el quinto projecto del curso Responsive Web Design propuesto por freeCodeCamp es su plan de estudios.
 
 Las tecnologias utilizadas fueron:
 
