@@ -8,6 +8,9 @@
 	--darkblue-background-2: rgba(29, 45, 80, 1);
 	--lightblue-background: #1e5f74;
 }
+html{
+	scroll-behavior: smooth;
+}
 * {
 	box-sizing: border-box;
 }
