@@ -231,12 +231,38 @@
     <section id="contact">
       <div class="wrap-contact">
         <h2 class="contact__title">Puedes contactarme...</h2>
-        <p class="contact__info">
-          A traves de mi correo ruizsilvajonathan@gmail.com haciendo
-          <a href="mailto:ruizsilvajonathan@gmail.com" class="contact__link"
-            >click aquí</a
-          >
-        </p>
+        <p class="contact__info">Rellenando los siguientes campos.</p>
+        <form
+          action="https://formsubmit.co/ruizsilvajonathan@gmail.com"
+          target="_blank"
+          method="POST"
+          class="form"
+        >
+          <input
+            type="text"
+            name="name"
+            class="form__input"
+            placeholder="Nombre"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            class="form__input"
+            placeholder="Correo electronico"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            title="Ingrese un email valido :)"
+            required
+          />
+          <textarea
+            name="message"
+            class="form__textarea"
+            placeholder="Mensaje"
+            title="Completa este campo"
+            required
+          ></textarea>
+          <input type="submit" class="form__submit" value="Enviar formulario" />
+        </form>
       </div>
     </section>
     <footer class="footer">
