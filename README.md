@@ -11,3 +11,9 @@
 
 - HTML
 - CSS
+
+## _Contact_
+
+- Website [jruizsilva.netlify.app](https://jruizsilva.netlify.app/)
+- GitHub [@jruizsilva](https://github.com/jruizsilva)
+- Linkedin [@jruizsilva](https://www.linkedin.com/in/jruizsilva/)
