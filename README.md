@@ -4,7 +4,7 @@
 
 <details>
   <summary>Click to view!</summary>
-  <img src="marketplace.gif">
+  <img src="personalportfolio.gif">
 </details>
 
 ## _Built With_
