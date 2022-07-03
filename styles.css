@@ -190,6 +190,14 @@ body {
     margin-bottom: 12px;
   }
 }
+.project-tile__link--title {
+  text-decoration: none;
+  color: white;
+  user-select: none;
+}
+.project-tile__link--title:hover {
+  text-decoration: underline;
+}
 .project-tile__info {
   display: flex;
   flex-direction: column;
@@ -246,7 +254,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 62px;
 }
 .project-tile__link {
   height: 28px;
