@@ -300,7 +300,7 @@ body {
 .footer {
   height: 20vh;
   background-color: var(--black-background);
-  border-top: 5px solid var(--darkblue-background);
+  border-top: 5px solid var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,4 +310,39 @@ body {
   color: #f0f0f0;
   font-size: 17px;
   font-weight: 300;
+}
+.contact__icons {
+}
+.contact__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__social-media {
+  display: flex;
+  justify-content: center;
+}
+.contact__text {
+}
+.contact__icons__link,
+.contact__icons__link--email {
+  color: white;
+  margin: 16px;
+  font-size: 14px;
+}
+.contact__icons__link--email {
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__icons__icon {
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 4px;
+}
+.contact__icons__image {
+  height: 48px;
 }
