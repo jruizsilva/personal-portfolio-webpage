@@ -210,8 +210,7 @@ body {
 }
 .project-tile__description {
   font-size: 18px;
-  font-weight: 200;
-  font-style: italic;
+  font-weight: 300;
   margin-top: 0;
 }
 @media screen and (max-width: 480px) {
